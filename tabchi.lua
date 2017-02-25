@@ -1,4 +1,4 @@
--- @TeleDiamondCh
+
 
 function is_sudo(msg)
   local sudoers = {}
@@ -227,7 +227,7 @@ _اضافه کردن مخاطبين ربات به گروه_
 _دريافت لينک هاي ذخيره شده توسط ربات_
 */contactlist*
 _دريافت مخاطبان ذخيره شده توسط ربات_
-*Join* _us_ >> @TeleDiamondCh
+*Join* _us_ >> @botreborn_ch
 ]]
     return text
   end
@@ -260,10 +260,10 @@ _دريافت مخاطبان ذخيره شده توسط ربات_
           }, dl_cb, nil)
         else
           local text = [[
-_اطلاعات ربات_ :
+_آمار در این لحظه_ :
 _تعداد کاربران_ : ]] .. pvs .. [[
 
-_تعداد گروها_ : ]] .. gps .. [[
+_تعداد گپ عادی_ : ]] .. gps .. [[
 
 _تعداد سوپر گروها_ : ]] .. sgps .. [[
 
@@ -292,7 +292,7 @@ _تعداد لینک های ذخیر شده_ : ]] .. links
       msg.text:match("^[!/#](addsudo) (%d+)")
     }
     if msg.text:match("^[!/#]addsudo") and is_full_sudo(msg) and #matches == 2 then
-      local text = matches[2] .. " _به لیست سودوهای ربات اضافه شد_"
+      local text = matches[2] .. " _سودو شد_"
       redis:sadd("tabchi:" .. tabchi_id .. ":sudoers", tonumber(matches[2]))
       return text
     end
@@ -399,7 +399,7 @@ _پیام_ :
         from_background_ = 1
       }, dl_cb, nil)
     end
-    return "_پیام شما فوروارد شد_"
+    return "_پیام شما با موفقیعت ارسال شد_"
   end
   if msg.text:match("^[!/#]fwd gps$") and msg.reply_to_message_id_ and is_sudo(msg) then
     local all = redis:smembers("tabchi:" .. tabchi_id .. ":groups")
