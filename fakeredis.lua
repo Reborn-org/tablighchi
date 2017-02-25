@@ -1,6 +1,7 @@
 local unpack = table.unpack or unpack
 
 --- Bit operations
+---botreborn
 
 local ok,bit
 if _VERSION == "Lua 5.3" then
