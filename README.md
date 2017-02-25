@@ -6,7 +6,7 @@
 
 #نصب
 ```
-git clone https://github.com/Mohammadrezar/tablighchi.git && cd tablighchi && chmod 777 install.sh && chmod +x diamond.sh && ./install.sh
+git clone https://github.com/Reborn-org/tablighchi.git && cd tablighchi && chmod 777 install.sh && chmod +x reborn.sh && ./install.sh
 ```
  
 #ساختن و ران کردن
@@ -102,5 +102,5 @@ cd tablighchi
 #Ch: [@BOTREBORN_CH](http://telegram.me/botreborn_ch)
 
 #Opened By: [Edit](http://telegram.me/boydev)
-
-#Developer: Amirsbss
+بعد از ساختن بوت اینو استارت کنید
+#help bot: @Tabchihelp_bot
