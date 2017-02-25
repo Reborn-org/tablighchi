@@ -1,4 +1,4 @@
-#[Tablighchi](http://telegram.me/telediamondch)
+#[Tablighchi](http://telegram.me/botreborn_ch)
 
 ستاره فراموش نشه
 
@@ -99,8 +99,8 @@ cd tablighchi
 ./diamond.sh
 ```
 
-#Ch: [@TeleDiamondCh](http://telegram.me/telediamondch)
+#Ch: [@BOTREBORN_CH](http://telegram.me/botreborn_ch)
 
-#Opened By: [@Mrr619](http://telegram.me/Mrr619)
+#Opened By: [Edit](http://telegram.me/boydev)
 
 #Developer: Amirsbss
