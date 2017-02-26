@@ -96,7 +96,7 @@ python3 creator.py
 ```
 cd tablighchi
 
-./diamond.sh
+./reborn.sh
 ```
 
 #Ch: [@BOTREBORN_CH](http://telegram.me/botreborn_ch)
